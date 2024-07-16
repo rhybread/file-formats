@@ -1,0 +1,9 @@
+.rhy
+
+.tab
+  - for guitar tabs obviously
+  - each piece of data is a letter (EADGBe) followed by a number (fret) or nothing (-)
+
+image
+  - each pixel is just a hex code or something
+  - do something like 10X(color) to save space
