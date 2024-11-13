@@ -12,7 +12,7 @@ class Tab:
     def make_tab(self, txt):
         for line in txt:
             # if the line is not a line of tablature, such as lyrics, etc. just skip the line
-            if not re.match("^[a-zA-Z]\|", line):
+            if not re.match("^[a-zA-Z]\|", line):   # todo: make this just be the tunings
                 continue
             self.__read_line(line)
 
